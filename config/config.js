@@ -20,3 +20,11 @@ if(process.env.NODE_ENV=== 'dev'){
     urlDB =  process.env.MONGO_URI;
 }
 process.env.URLDB = urlDB;
+
+//SEED
+
+process.env.SEED = process.env.SEED || 'seed';
+
+//EXPIRACION
+
+process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
