@@ -43,7 +43,7 @@ const app = express();
   })
   })
   
-  app.post('/usuario',[verificarToken,verificarAdmin], (req, res)=> {
+  app.post('/usuario',/*[verificarToken,verificarAdmin],*/ (req, res)=> {
       let body = req.body;
       
 
