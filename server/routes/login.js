@@ -116,7 +116,7 @@ app.post('/google', async (req,res)=>{
 
             usuario.nombre = googleUser.nombre;
             usuario.email = googleUser.email;
-            usuario.imagen = googleUser.imagen;
+            usuario.img = googleUser.imagen;
             usuario.google = googleUser.google;
             usuario.password = ':)'
 
